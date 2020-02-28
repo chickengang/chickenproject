@@ -42,8 +42,11 @@ public class Controller implements KeyListener {
 
 	@Override
 	public void keyTyped(KeyEvent event) {
-		// TODO Auto-generated method stub
-		
+		switch(event.getKeyCode()) {
+		case KeyEvent.VK_SPACE:
+			System.out.println("HEY");
+			break;
+		}
 	}
 
 }
